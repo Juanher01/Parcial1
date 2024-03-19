@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px;
+    background: white;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.container .Registro{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 12px 0;
+}
+
+form .form-group {
+    margin-bottom: 30px;
+    flex: 1;
+    min-width: calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+    margin-right: 10px; 
+    box-sizing: border-box; 
+}
+
+form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.botones-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.botones-container button {
+    margin: 0 120px; 
+}
