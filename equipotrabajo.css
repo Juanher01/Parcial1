@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+    border: 3px solid brown;
+    border-radius: 5px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.carousel { 
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    border: 5px solid brown;
+    border-radius: 5px;
+}
